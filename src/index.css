@@ -1,0 +1,23 @@
+@layer components {
+  .navbar__item {
+    @apply cursor-pointer  py-2 px-4 hover:bg-gray-700 rounded-3xl transition-all duration-300;
+  }
+
+  .login__item{
+    @apply text-[rgb(198,198,198)] py-2 px-4 hover:bg-[rgb(202,255,51)] rounded-full hover:text-gray-800 transition-all duration-300
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(25, 25, 25);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
