@@ -1,1 +1,10 @@
+/* styles of welcom component */
 
+.radius {
+  border-radius: 10px 0px 30px 10px;
+}
+
+.radius2 {
+  margin-top: -20px;
+  overflow: hidden;
+}

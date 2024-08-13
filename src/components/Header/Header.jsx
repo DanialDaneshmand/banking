@@ -11,7 +11,7 @@ function Header() {
     <div className="   w-full flex justify-between px-6 bg-[rgb(32,32,32)] my-8 py-4 rounded-full border border-[#252525]">
       <Logo />
       {show && (
-        <div className="block lg:hidden backdrop-blur-sm bg-opacity-30 w-screen h-screen absolute left-0 top-0 bg-gray-500">
+        <div className=" z-50 block lg:hidden backdrop-blur-sm bg-opacity-30 w-screen h-screen absolute left-0 top-0 bg-gray-500">
           <div className=" p-8 lg:p-0 lg:w-full sm:w-[450px] h-screen lg:h-auto w-full absolute right-0 top-0 bg-[rgb(32,32,32)]">
             <button
               onClick={() => setShow(false)}
