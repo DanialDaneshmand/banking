@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import WelcomComp from "./components/WelcomComp/WelcomComp";
 import ValuesComp from "./components/ValuesComp/ValuesComp";
 import BenefitsComp from "./components/BenefitsComp/BenefitsComp";
+import JobComp from "./components/JobComp/JobComp";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Header />
         <WelcomComp />
         <ValuesComp />
-        <BenefitsComp/>
+        <BenefitsComp />
+        <JobComp />
       </div>
     </div>
   );

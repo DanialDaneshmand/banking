@@ -6,7 +6,7 @@ import { FaBriefcase } from "react-icons/fa6";
 const options = [
   {
     id: 1,
-    icon: <FaBoxArchive />,
+    icon: <FaBriefcase />,
     title: "Competitive Compasation",
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aliquid dolore nostrum magni iusto natus laborum ratione. Beatae  doloremque debitis facere. Accusantium non voluptatibus at error sint         assumenda, doloribus aliquid, est porro, nisi repellendus ipsam",
   },
@@ -59,9 +59,9 @@ function HeaderOfBenefits() {
 
 function BodyOfBenefits() {
   return (
-    <div className=" my-16 grid grid-cols-2 gap-8">
+    <div className=" my-16 grid md:grid-cols-2 gap-8">
       {options.map((item) => (
-        <div key={item.id} className={item.id===2||item.id===3?'item1':'item2'}>
+        <div key={item.id} className={item.id===2||item.id===3?' rounded-t-3xl  rounded-b-md overflow-hidden  md:rounded-tl-lg md:rounded-tr-3xl md:rounded-bl-3xl md:rounded-br-lg':'md:rounded-tl-3xl md:rounded-tr-lg md:rounded-bl-lg md:rounded-br-3xl  rounded-t-3xl  rounded-b-md overflow-hidden md:item2'}>
           <div className=" bg-[rgb(32,32,32)] px-4 py-6">
             <div className=" flex items-center gap-x-4">
               <div className="shadow-[rgb(202,255,51)] shadow-sm bg-[rgb(30,30,30)]  flex justify-center items-center w-16 h-16 rounded-full ">
