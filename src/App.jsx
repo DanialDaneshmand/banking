@@ -5,6 +5,7 @@ import WelcomComp from "./components/WelcomComp/WelcomComp";
 import ValuesComp from "./components/ValuesComp/ValuesComp";
 import BenefitsComp from "./components/BenefitsComp/BenefitsComp";
 import JobComp from "./components/JobComp/JobComp";
+import FerquentlyComp from "./components/FerquentlyComp/FerquentlyComp";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ValuesComp />
         <BenefitsComp />
         <JobComp />
+        <FerquentlyComp/>
       </div>
     </div>
   );
