@@ -8,3 +8,16 @@
   margin-top: -20px;
   overflow: hidden;
 }
+
+
+/* style of benefits component */
+
+.item1{
+  border-radius: 10px 30px 10px 30px;
+  overflow: hidden;
+}
+
+.item2{
+  border-radius: 30px 10px 30px 10px;
+  overflow: hidden;
+}

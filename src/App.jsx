@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header/Header";
 import WelcomComp from "./components/WelcomComp/WelcomComp";
 import ValuesComp from "./components/ValuesComp/ValuesComp";
+import BenefitsComp from "./components/BenefitsComp/BenefitsComp";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <WelcomComp />
         <ValuesComp />
+        <BenefitsComp/>
       </div>
     </div>
   );
