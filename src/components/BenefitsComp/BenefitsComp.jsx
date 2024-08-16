@@ -32,7 +32,7 @@ const options = [
 
 function BenefitsComp() {
   return (
-    <div className=" my-32">
+    <div className=" my-32 ">
       <HeaderOfBenefits />
       <BodyOfBenefits />
     </div>

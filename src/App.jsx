@@ -7,19 +7,23 @@ import BenefitsComp from "./components/BenefitsComp/BenefitsComp";
 import JobComp from "./components/JobComp/JobComp";
 import FerquentlyComp from "./components/FerquentlyComp/FerquentlyComp";
 import StartComp from "./components/StartComp/StartComp";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className=" flex flex-col justify-center items-center px-8 lg:px-0">
-      <div className=" container max-w-screen-lg">
-        <Header />
-        <WelcomComp />
-        <ValuesComp />
-        <BenefitsComp />
-        <JobComp />
-        <FerquentlyComp/>
-        <StartComp/>
+    <div className=" flex flex-col justify-center items-center  lg:px-0">
+      <div>
+        <div className=" max-w-screen-lg">
+          <Header />
+          <WelcomComp />
+          <ValuesComp />
+          <BenefitsComp />
+          <JobComp />
+          <FerquentlyComp />
+          <StartComp />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }
