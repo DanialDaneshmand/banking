@@ -9,8 +9,8 @@ import { FaLinkedin } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className=" px-32    bg-[rgb(32,32,32)] w-full  flex flex-col items-center">
-      <div className=" border-b border-gray-800 w-full py-4 flex justify-center items-center flex-col gap-4 mt-16">
+    <div className=" md:px-32 bg-[rgb(32,32,32)] w-full  flex flex-col items-center">
+      <div className=" border-b border-[rgb(40,40,40)] w-full py-4 flex justify-center items-center flex-col gap-4 mt-16">
         <div className=" flex  justify-center items-center gap-x-2 lg:gap-x-4 w-64">
           <span className=" text-lg md:text-xl text-[rgb(202,255,51)]">
             <FaAtlassian />
@@ -28,7 +28,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className=" py-16 flex justify-center gap-x-8 border-b border-gray-800 w-full">
+      <div className=" py-12 flex flex-col items-center md:flex-row gap-y-4 md:gap-y-0 justify-center gap-x-8 border-b border-[rgb(40,40,40)] w-full">
         <div className=" flex items-center gap-x-2">
           <span className=" text-[rgb(202,255,51)]">
             <FaRegEnvelope />
@@ -49,20 +49,20 @@ function Footer() {
         </div>
       </div>
       <div className=" w-full  py-16 flex justify-center">
-        <div className="px-8 w-full rounded-full border border-gray-800 flex items-center justify-between p-3">
-          <div className=" flex gap-x-2">
-            <div className="flex justify-center items-center bg-[rgb(202,255,51)] rounded-full w-16 h-16">
-              <span className=" text-[rgb(32,32,32)] text-4xl">
+        <div className="px-8 flex-col md:flex-row gap-y-4 md:gap-y-0 mx-4 md:mx-0 w-full rounded-full border border-[rgb(40,40,40)] flex items-center justify-between p-3">
+          <div className=" flex  gap-x-2">
+            <div className="flex  justify-center items-center bg-[rgb(202,255,51)] rounded-full sm:w-16 sm:h-16 w-12 h-12">
+              <span className=" text-[rgb(32,32,32)] text-2xl sm:text-4xl">
                 <FaSquareFacebook />
               </span>
             </div>
-            <div className="flex justify-center items-center bg-[rgb(202,255,51)] rounded-full w-16 h-16">
-              <span className=" text-[rgb(32,32,32)] text-4xl">
+            <div className="flex justify-center items-center bg-[rgb(202,255,51)] rounded-full sm:w-16 sm:h-16 w-12 h-12">
+              <span className=" text-[rgb(32,32,32)] text-2xl sm:text-4xl">
                 <FaSquareTwitter />
               </span>
             </div>
-            <div className="flex justify-center items-center bg-[rgb(202,255,51)] rounded-full w-16 h-16">
-              <span className=" text-[rgb(32,32,32)] text-4xl">
+            <div className="flex justify-center items-center bg-[rgb(202,255,51)] rounded-full sm:w-16 sm:h-16 w-12 h-12">
+              <span className=" text-[rgb(32,32,32)] text-2xl sm:text-4xl ">
                 <FaLinkedin />
               </span>
             </div>

@@ -8,20 +8,22 @@ import { FaXmark } from "react-icons/fa6";
 function Header() {
   const [show, setShow] = useState(false);
   return (
-    <div className="   w-full flex justify-between px-6 bg-[rgb(32,32,32)] my-8 py-4 rounded-full border border-[#252525]">
+    <div className=" px-3 md:px-6  lg:my-4 w-full flex justify-between  bg-[rgb(32,32,32)]  py-4 rounded-full border border-[#252525]">
       <Logo />
       {show && (
-        <div className=" z-50 block lg:hidden backdrop-blur-sm bg-opacity-30 w-screen h-screen absolute left-0 top-0 bg-gray-500">
-          <div className=" p-8 lg:p-0 lg:w-full sm:w-[450px] h-screen lg:h-auto w-full absolute right-0 top-0 bg-[rgb(32,32,32)]">
-            <button
-              onClick={() => setShow(false)}
-              className=" text-xl text-[rgb(202,255,51)]"
-            >
-              <FaXmark />
-            </button>
-            <div className="flex flex-col-reverse lg:flex-row items-end gap-y-32 justify-between lg:justify-around w-full ">
-              <NavbarLinks />
-              <LoginBox />
+        <div className=" fixed top-0 left-0 w-full h-screen z-50">
+          <div className="  z-50 block lg:hidden backdrop-blur-sm bg-opacity-30 w-full h-screen absolute left-0 top-0 bg-gray-500">
+            <div className=" p-8 lg:p-0 lg:w-full sm:w-[450px] h-screen lg:h-auto w-full absolute right-0 top-0 bg-[rgb(32,32,32)]">
+              <button
+                onClick={() => setShow(false)}
+                className=" text-xl text-[rgb(202,255,51)]"
+              >
+                <FaXmark />
+              </button>
+              <div className="flex flex-col-reverse lg:flex-row items-end gap-y-32 justify-between lg:justify-around w-full ">
+                <NavbarLinks />
+                <LoginBox />
+              </div>
             </div>
           </div>
         </div>

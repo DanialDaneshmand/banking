@@ -2,7 +2,7 @@ import React from "react";
 
 function WelcomComp() {
   return (
-    <div className=" my-8">
+    <div className=" mt-32 my-8">
       <div className=" hidden md:block">
         <div className="flex   flex-col-reverse md:flex-row  relative  w-full bg-[rgb(32,32,32)] rounded-xl md:p-8">
           <div className="w-4/12">

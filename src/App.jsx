@@ -13,7 +13,7 @@ function App() {
   return (
     <div className=" flex flex-col justify-center items-center  lg:px-0">
       <div>
-        <div className=" max-w-screen-lg">
+        <div className="container pt-8 px-4 md:px-16 max-w-screen-lg ">
           <Header />
           <WelcomComp />
           <ValuesComp />
